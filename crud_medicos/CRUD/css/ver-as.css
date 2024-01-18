@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&family=Bebas+Neue&family=Commissioner:wght@700&family=Montserrat:ital,wght@0,600;0,800;0,900;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,500;1,600&family=Prata&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sorts+Mill+Goudy&display=swap');
+body{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    z-index: 100;
+    margin-top: 70px;
+    margin-left: 270px;
+    overflow-x: hidden;
+}
+
+.contener_ficha{
+    width: 80%;
+    padding-left: 25%;
+    padding-right: 30%;
+}
+
+.datos_per{
+    background: rgb(38,148,177);
+    background: linear-gradient(150deg, rgba(28, 116, 167, 0.527) 39%, rgba(40, 70, 160, 0.793) 100%);
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 15px ;
+    box-shadow: -5px 10px 30px 6px rgba(0, 0, 0, 0.233);
+}
+
+
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.avatar img{
+    width: 120px;
+    z-index: 100;
+}
+
+.info1{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+}
+
+.info1 h6.card-title1{
+    color: rgb(38, 100, 170);
+    font-size: 30px;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.info1 h6.card-title{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.linea_deco{
+    border-top: 1px solid rgb(218, 218, 218);
+    height: 2px;
+    width: 100%;
+    margin: 30px 0px 30px;
+}
+
+h5.card-title2{
+    background-color: white;
+    width: 150px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px 0px 15px 0px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    color: rgb(38, 100, 170);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h6.card-title2{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+h6 i{
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+h2.card-title1{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+}

@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&family=Bebas+Neue&family=Commissioner:wght@700&family=Montserrat:ital,wght@0,600;0,800;0,900;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,500;1,600&family=Prata&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sorts+Mill+Goudy&display=swap');
+body{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    z-index: 100;
+    margin-top: 50px;
+    margin-left: 270px;
+    overflow-x: hidden;
+}
+
+.sector{
+    top: 50px;
+    left: 270px;
+}
+.dash1 h1{
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.container h1{
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.table{
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+    border-radius:15px;  
+}
+
+th{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: auto;
+    text-align:center;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+ .table1 tr th{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: #053781;
+}
+
+tbody tr th{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+th a{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.fa-pencil-square-o{
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+} 
+
+.fa-pencil-square-o:hover{
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+    color: rgb(100, 145, 228);
+    transition: all 0.25s;
+}
+
+.fa-trash-o{
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+
+.fa-trash-o:hover{
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+    color: rgb(228, 100, 100);
+    transition: all 0.25s;
+}
+
+/*CARDS SECTORES AÑADIDOS*/
+
+.log-sector img{
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cards h1{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    width: 260px;
+    background: rgb(48,166,198);
+    background: linear-gradient(238deg, rgba(48,166,198,1) 40%, rgb(105, 127, 192) 100%);
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 2px;
+    padding-left: 22px;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 260px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.info{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.info h2{
+    color: #053781;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.container_AGR{
+    background-color: transparent;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 60px;
+    box-shadow: -5px 10px 30px 6px rgba(0, 0, 0, 0.076);
+    border-radius: 15px;
+    padding-top: 18px;
+    border-style: dashed;
+    border-color: #053781;
+}
+
+.container_AGR a{
+    color: #053781;
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.container_AGR i{
+    color: #053781;
+    font-size: 15px;
+}
+
+.container_AGR a:hover{
+    font-size: 17px; 
+    transition: all 0.25s;
+}
+
+.btn-2{
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/**/
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.wr1{
+    width: 280px;
+}
+
+/*scrol*/
+
+.scrol{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 280px;
+    height: 13rem;
+    border-radius:15px 15px 15px 15px;
+}
+
+.info p{
+    margin-bottom:5px;
+}
+
+.boton2 a{
+    background: rgb(48,166,198);
+    background: linear-gradient(238deg, rgba(48,166,198,1) 40%, rgb(105, 127, 192) 100%);
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 12px 0px  12px 0px;
+    color: white;
+}
+
+.boton2{
+    margin-bottom: 8px;
+}
+
+.boton2 a:hover{
+    transform: translate(0, -3px); 
+    transition: all .3s ease-out;
+    filter: brightness(1.1);
+}
+
+/*buscador*/
+.container{
+    width: 500px;
+}
+
+
+.buscador input{
+    background-color: white;
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 15px 0px 0px 0px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.boton input{
+    background: rgb(48,166,198);
+    background: linear-gradient(238deg, rgba(48,166,198,1) 40%, rgb(105, 127, 192) 100%);
+    width: 80%;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 0px 0px 15px 0px;
+}
+
+.boton input:hover{
+    transform: translate(0, -3px); 
+    transition: all .3s ease-out;
+}
+
+.container h4{
+    color: rgb(108, 151, 245);
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.container .text{
+    height: 40px;
+}
+
+.flex3{
+    background: rgb(48,166,198);
+    background: linear-gradient(238deg, rgba(48,166,198,1) 40%, rgb(105, 127, 192) 100%);
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    border-radius: 15px 0px 15px 0px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.flex3:hover{
+    transform: translate(0, -3px); 
+    transition: all .3s ease-out;
+    filter: brightness(1.1);
+}
+
+.container_ a i{
+    font-size: 33px;  
+    color:rgb(108, 151, 245);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.container_ a i:hover{
+    transition: all .2s ease-out;
+    transform: scale(1.2);
+    color: rgb(28, 197, 132);
+}
+
+/*scroll*/
+.scrol1{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 1000px;
+    height: 24rem;
+    box-shadow: -5px 10px 30px 6px rgba(0, 0, 0, 0.076);
+    border-radius:15px 15px 15px 15px;
+    margin-bottom: 50px;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+

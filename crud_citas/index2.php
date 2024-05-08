@@ -96,7 +96,7 @@ $resultado = $conexion->query($consulta);
         <div class="tablas">
             <h1>Lista de Citas</h1>
             <div class="container">
-                <a href="Forms/AgregarCliente.php" class=""><i class='bx bxs-message-square-add' > </i></a>
+                <a href="Forms/AgregarCliente2.php" class=""><i class='bx bxs-message-square-add' > </i></a>
             </div>
             <div class="scrol">
             <table class="table">
@@ -119,8 +119,8 @@ $resultado = $conexion->query($consulta);
             <?php while($fila = mysqli_fetch_array($resultado)){?>
                 <tr>
                     <th scope="row">
-                            <a href="Forms/EditarDato.php?Id=<?php echo $fila['id']?>" class="btn btn-primary"><i class="fa fa-pencil-square-o"></i></a>
-                            <a href="CRUD/EliminarDato.php?Id=<?php echo $fila['id']?>" onclick="return confirmacion()" class="btn btn-danger"><i class="fa fa-trash-o"></i></a>                            
+                            <a href="Forms/EditarDato2.php?Id=<?php echo $fila['id']?>" class="btn btn-primary"><i class="fa fa-pencil-square-o"></i></a>
+                            <a href="CRUD/EliminarDato2.php?Id=<?php echo $fila['id']?>" onclick="return confirmacion()" class="btn btn-danger"><i class="fa fa-trash-o"></i></a>                            
                     </th>
                     <th scope="row"><?php echo $fila['nombre']?></th>
                     <th scope="row"><?php echo $fila['DNI']?></th>

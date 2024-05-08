@@ -49,7 +49,7 @@
 
             <div class="enlace">
                 <i class="bx bxs-user-badge"></i>
-                <a href="../../crud_paciente/Index.php">
+                <a href="../../crud_paciente/index2.php">
                     <span>Pacientes</span>
                 </a>
             </div>

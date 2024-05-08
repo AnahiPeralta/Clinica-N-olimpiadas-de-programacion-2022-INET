@@ -10,13 +10,13 @@
         src="https://kit.fontawesome.com/7e5b2d153f.js"
         crossorigin="anonymous">
     </script>
-
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="./css/pacientes.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&family=Bebas+Neue&family=Commissioner:wght@700&family=Montserrat:ital,wght@0,600;0,800;0,900;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,500;1,600&family=Prata&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -37,7 +37,7 @@ $resultado = $conexion->query($consulta);
 ?>
 <div class="sect">
 <div class="container_bot_azul">
-        <a href="Forms/AgregarCliente.php" class="btn btn-gd"><i class='bx bxs-message-square-add'>Código Azul</i></a>
+        <a href="Forms/AgregarCliente2.php" class="btn btn-gd"><i class='bx bxs-message-square-add'>Código Azul</i></a>
     </div>
 
     <div class="dash1">
@@ -63,7 +63,7 @@ $resultado = $conexion->query($consulta);
         <div class="tablas">
         <h1>Lista de pacientes</h1>
         <div class="container">
-            <a href="Forms/AgregarCliente.php" class="btn btn-primary"><i class="fa fa-user-plus"></i></a>
+            <a href="Forms/AgregarCliente2.php" class="btn btn-primary"><i class="fa fa-user-plus"></i></a>
         </div>
 
         <div class="scrol">
@@ -97,8 +97,8 @@ $resultado = $conexion->query($consulta);
                     <th scope="row"><?php echo $fila['estado']?></th>
                     <th scope="row">
                     <div class="flexi">
-                    <a href="Forms/EditarDato.php?Id=<?php echo $fila['id']?>" class="btn btn-primary"><i class="fa fa-pencil-square-o"></i></a>
-                            <a href="CRUD/EliminarDato.php?Id=<?php echo $fila['id']?>" onclick="return confirmacion()" class="btn btn-danger"><i class="fa fa-trash-o"></i></a>                            
+                    <a href="Forms/EditarDato2.php?Id=<?php echo $fila['id']?>" class="btn btn-primary"><i class="fa fa-pencil-square-o"></i></a>
+                            <a href="CRUD/EliminarDato2.php?Id=<?php echo $fila['id']?>" onclick="return confirmacion()" class="btn btn-danger"><i class="fa fa-trash-o"></i></a>                            
                     </div>
                     </th>
                 </tr>

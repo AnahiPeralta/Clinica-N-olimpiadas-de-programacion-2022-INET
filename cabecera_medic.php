@@ -55,7 +55,7 @@
 
             <div class="enlace">
                 <i class="bx bxs-user-pin"></i>
-                <a href="../crud_citas/index2.php">
+                <a href="../crud_citas/Index.php">
                     <span>Citas</span>
                 </a>
             </div>

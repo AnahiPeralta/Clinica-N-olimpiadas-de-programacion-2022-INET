@@ -24,7 +24,7 @@
         <!-- TOP MENU -->
         <div class="top-menu">
             <div class="logo">
-                <img src="../../img/logg.png" alt="">
+                <img src="../../img/red6.png" alt="">
                 <span>ClínicaN</span>
             </div>
             <div class="toggle">

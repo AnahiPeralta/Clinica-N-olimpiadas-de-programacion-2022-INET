@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&family=Bebas+Neue&family=Commissioner:wght@700&family=Montserrat:ital,wght@0,600;0,800;0,900;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,500;1,600&family=Prata&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sorts+Mill+Goudy&display=swap');
+body{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    z-index: 100;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.sector{
+    top: 50px;
+    left: 270px;
+}
+
+.rows{
+    display: flex;
+}
+
+.dash1 h1{
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.container_tabla h1{
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.table{
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+    border-radius:15px;
+    box-shadow: -5px 10px 30px 6px rgba(0, 0, 0, 0.076);
+    
+}
+
+th{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+    text-align:center;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+ .table1 tr th{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: #053781;
+}
+
+tbody tr th{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+th a{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn-primary{
+    background-color: rgb(243, 242, 242);
+    cursor: pointer;
+    color: black;
+}
+
+.btn-primary:hover{
+    background-color: rgb(82, 124, 204);
+    transition: all 0.25s;
+    color: white;
+}
+
+.btn-danger{
+    background-color: rgb(243, 242, 242);
+    cursor: pointer;
+    color: black;
+}
+
+.btn-danger:hover{
+    background-color: rgb(184, 82, 82);
+    transition: all 0.25s;
+    color: white;
+}
+
+
+/*CARDS SECTORES AÑADIDOS*/
+
+.log-sector img{
+    width: 40px;
+    margin-left: 10px;
+}
+
+.cards h1{
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 260px;
+    padding: 10px;
+    box-shadow: -5px 10px 30px 6px rgba(0, 0, 0, 0.076);
+    border-radius: 15px;
+}
+
+.info{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.info h2{
+    color: #053781;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.container_AGR{
+    background-color: transparent;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 60px;
+    box-shadow: -5px 10px 30px 6px rgba(0, 0, 0, 0.076);
+    border-radius: 15px;
+    padding-top: 18px;
+    border-style: dashed;
+    border-color: #053781;
+}
+
+.container_AGR a{
+    color: #053781;
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.container_AGR i{
+    color: #053781;
+    font-size: 15px;
+}
+
+.container_AGR a:hover{
+    font-size: 17px; 
+    transition: all 0.25s;
+}
+
+
+/**/
+
+.contenedor_todd{
+    height: 100%;
+    position: relative;
+}
+
+.box0{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.box1{
+    height: 100%;
+    width: 750px;
+}
+
+.box1{
+    margin-right: 3em;
+}
+
+ 
+.box2{
+    height: 100%;
+    width: 350px;
+}
+
+svg.highcharts-root{
+    width: 1050px;
+    border-radius: 15px;
+}
+
+h1.scopee{
+    margin-bottom: -40px;
+}
+
+text.highcharts-credits{
+    opacity: 0;
+    cursor: default;
+}

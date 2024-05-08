@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&family=Bebas+Neue&family=Montserrat:ital,wght@0,600;0,800;0,900;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,500;1,600&family=Prata&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sorts+Mill+Goudy&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../../../img/fondo.png) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+
+  body:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(38,148,177);
+    background: linear-gradient(95deg, rgba(25, 115, 139, 0.57) 39%, rgba(39, 62, 133, 0.793) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.container_ag {
+   text-align: center;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+
+.container_tood{
+    width: 80%;
+    height: 85%;
+    background: rgba(255, 255, 255, 0.90);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius:28px 0px 28px 0px;
+}
+
+.container_ag h1.text-center{
+    color:black;
+}
+
+h1.text-center{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.for{
+    background-color: #283F88;
+    top:0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:10px;
+    padding-bottom:10px;
+    justify-content: center;
+    border-radius: 28px 0px 0px 0px;
+}
+
+.for img.avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.avatar{
+    padding-top: 10px;
+}
+
+.mb-3 input{
+    background-color: white;
+    border: none;
+    margin-top: 15px;
+    padding-left: 10px;
+    height: 40px;
+    width: 80%;
+    box-shadow: -5px 10px 20px 6px rgba(0, 0, 0, 0.068);
+}
+
+select{
+    background-color: white;
+    width: 81%;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    height: 40px;
+    border: none;
+    box-shadow: -5px 10px 20px 6px rgba(0, 0, 0, 0.068);
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.mb-3 h2{
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+   color: rgb(2, 74, 133);
+}
+
+.mb-3 h3{
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+   color: rgb(2, 74, 133);
+   margin-bottom: 1px;
+}
+
+.mb-3 i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 0, 126);
+    padding: 12px; 
+}
+
+.container_b{
+    margin-top: 20px;
+}
+.container_b button{
+    background: rgb(48,166,198);
+    background: linear-gradient(238deg, rgba(48,166,198,1) 40%, rgb(105, 127, 192) 100%);
+    width: 150px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.container_b button:hover{
+    transform: translate(0, -5px); 
+    transition: all .3s ease-out;
+}
+
+.container_b a{
+    background: rgb(48,166,198);
+    background: linear-gradient(238deg, rgb(102, 102, 102) 40%, rgb(54, 59, 73) 100%);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    border-radius: 0px 0px 15px 0px;
+    text-decoration: none;
+}
+
+
+.box0{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.box4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    margin-left: 20px;
+    width: 89%;
+}
+
+
+.box1 h4{
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: rgb(85, 100, 233);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.box2 h4{
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: rgb(85, 100, 233);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.box3 h4{
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: rgb(85, 100, 233);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}

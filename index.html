@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <title>Inicio de sesión</title>
-   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style-login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&family=Bebas+Neue&family=Montserrat:ital,wght@0,600;0,800;0,900;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,500;1,600&family=Prata&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&family=Bebas+Neue&family=Montserrat:ital,wght@0,600;0,800;0,900;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,500;1,600&family=Prata&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
         <div class="form-container">
             <div class="login-box">
-                    <img src="img/logo.png" class="avatar" alt="Avatar Image">
-                    <h1>Iniciar sesión</h1>
-
-                <form action="validar.php" method="POST">
-                <label><i class=""></i>Correo Electrónico</label>
-                <input type="text" class="material-login-control" name="mail" required="" maxlength="70" placeholder="Ingrese su email">
-                   
-        
-                <label><i class=""></i>Contraseña </label>
-                <input type="password" class="material-login-control" name="pass" required="" maxlength="70" placeholder="Ingrese su contraseña">
-                
-                <center><button class="btn-login" type="submit">Ingresar<i class=""></i></button>
-                </center>
+                <img src="img/logo.png" class="avatar" alt="Avatar Image">
+                <h1>Iniciar sesión</h1>
+                <form id="loginForm" action="validar.php" method="POST">
+                    <label><i class=""></i>Correo Electrónico</label>
+                    <input id="mail" type="text" class="material-login-control" name="mail" required="" maxlength="70" placeholder="Ingrese su email">
+                    <label><i class=""></i>Contraseña </label>
+                    <input id="pass" type="password" class="material-login-control" name="pass" required="" maxlength="70" placeholder="Ingrese su contraseña">
+                    <center>
+                        <button class="btn-login" type="submit">Ingresar<i class=""></i></button>
+                    </center>
                 </form>
-
-            <center>
-            <h6>¿No tienes una cuenta?</h6>
-            <a href="registro2.php">
-                <button class="btn-login3" type="submit"><i class=""></i> Regístrate</button>
-            </a></center> 
+                <center>
+                    <h6>¡Probá el sistema como Admin!</h6>
+                    <button class="btn-login2" type="button" onclick="loginAsAdmin();"><i class=""></i> Ingresar como Admin</button>
+                </center>
+                <center>
+                    <h6>¿No tienes una cuenta?</h6>
+                    <a href="registro2.php">
+                        <button class="btn-login3" type="submit"><i class=""></i> Regístrate</button>
+                    </a>
+                </center>
+            </div>
         </div>
-        </div>
-
+        <script>
+            function loginAsAdmin() {
+                // Establecer los valores de correo y contraseña
+                document.getElementById('mail').value = 'ani@gmail.com';
+                document.getElementById('pass').value = 'ani02';
+                // Enviar el formulario de inicio de sesión
+                document.getElementById('loginForm').submit();
+            }
+        </script>
 </body>
-
 </html>
